@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
 def call(String name = 'test') {
-  new GlobalVars(script:this).run()
+  //new GlobalVars(script:this).run()
   echo "Hello this is, ${name} step."
 }
